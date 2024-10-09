@@ -53,9 +53,8 @@ h1 {
 .description {
   color: var(--darkGrayishBlue);
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-wrap: wrap;
-  width: 80%;
   font-size: 14px;
 }
 .price {
@@ -69,7 +68,12 @@ h1 {
   font-size: 30px;
   color: var(--darkcyan);
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 15px;
+}
+.price .original-price {
+  color: var(--darkGrayishBlue);
+  font-size: 12px;
+  font-weight: 500;
 }
 .cart {
   width: 100%;
@@ -85,6 +89,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
 .cart::before {
   content: url(images/icon-cart.svg);
